@@ -1,0 +1,77 @@
+.animation.fadeIn{
+    animation: FadeIn .9s;
+}
+@keyframes FadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.animation.fadeRight{
+    animation: FadeRight .9s;
+}
+@keyframes FadeRight {
+    from {opacity: 0;-webkit-transform: translate3d(100px, 0, 0);transform: translate3d(100px, 0, 0);}
+    to {opacity: 1;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.fadeLeft{
+    animation: FadeLeft .9s;
+}
+@keyframes FadeLeft {
+    from {opacity: 0;-webkit-transform: translate3d(-100px, 0, 0);transform: translate3d(-100px, 0, 0);}
+    to {opacity: 1;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.fadeTop{
+    animation: FadeTop .9s;
+}
+@keyframes FadeTop {
+    from {opacity: 0;-webkit-transform: translate3d(0, -100px, 0);transform: translate3d(0, -100px, 0);}
+    to {opacity: 1;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.fadeBottom{
+    animation: FadeBottom .9s;
+}
+@keyframes FadeBottom {
+    from {opacity: 0;-webkit-transform: translate3d(0, 100px, 0);transform: translate3d(0, 100px, 0);}
+    to {opacity: 1;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.slideRight{
+    animation: SlideRight .9s;
+}
+@keyframes SlideRight {
+    from {-webkit-transform: translate3d(100px, 0, 0);transform: translate3d(100px, 0, 0);}
+    to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.slideLeft{
+    animation: SlideLeft .9s;
+}
+@keyframes SlideLeft {
+    from {-webkit-transform: translate3d(-100px, 0, 0);transform: translate3d(-100px, 0, 0);}
+    to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.slideTop{
+    animation: SlideTop .9s;
+}
+@keyframes SlideTop {
+    from {-webkit-transform: translate3d(0, -100px, 0);transform: translate3d(0, -100px, 0);}
+    to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.slideBottom{
+    animation: SlideBottom .9s;
+}
+@keyframes SlideBottom {
+    from {-webkit-transform: translate3d(0, 100px, 0);transform: translate3d(0, 100px, 0);}
+    to {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+}
+.animation.flipX{
+    animation: FlipX 1.2s;
+}
+@keyframes FlipX {
+    from {-webkit-transform: scale(1,-1);transform: scale(1,-1);}
+    to {-webkit-transform: scale(1, 1);transform: scale(1, 1);}
+}
+.animation.flipY{
+    animation: FlipY 1.2s;
+}
+@keyframes FlipY {
+    from {-webkit-transform: scale(-1,1);transform: scale(-1,1);}
+    to {-webkit-transform: scale(1, 1);transform: scale(1, 1);}
+}

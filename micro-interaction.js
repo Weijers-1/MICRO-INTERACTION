@@ -36,7 +36,7 @@ if(json.setfunction) json.setfunction();
 }
 } else {
 if(visible == false){
-if(json.reset) if(json.reset !== true) return;
+if(typeof json.reset === 'boolean') if(Boolean(json.reset) !== true) return;
 if(box.classList.contains(options.className)){
 box.classList.remove(options.className);
 }
